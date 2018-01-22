@@ -1,0 +1,277 @@
+ 
+html {
+background-color: black;
+background: url('resources/images.png');
+}
+ 
+
+.front {
+background-image: url('resources/anal.jpeg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 80%;
+height: 700px;
+margin: 0 auto;
+opacity: .875;
+}
+
+
+
+
+ .topbar {
+ 	background-color: black;
+ 	width: 100%;
+ 	height: 20px;
+ 	border: 2px solid black;
+ 	margin: 0;
+ }
+
+.navcon {
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+ 
+}
+
+
+ nav {
+width: 80%;
+text-align: center;
+padding: 14px;
+border-radius: 40px;
+opacity: .9;
+
+  
+
+ }
+
+ nav li {
+ 	display: inline-block;
+ 	padding-left: 20px;
+
+ }
+
+.navcon nav li {
+
+	padding: 1.5rem;
+	margin: .5rem 2.5rem;
+}
+
+.midbar {
+text-align: center;
+background-color: #46bae2;
+width: 80%;
+height: 300px;
+margin: 0 auto;
+color:white;
+margin-bottom: 130px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+	align-content:  center;
+}
+
+.midbar h2 {
+	margin: 0;
+	color:white;
+	font-size: 44px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: italic;
+ 
+}
+
+
+.midpic {
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: white;
+width: 80%;
+margin: auto;
+}
+
+  #item1 img  {
+flex: 1;
+border-bottom: 1.5rem solid #a5cc52;;
+border-radius:5%;
+
+}
+
+ #item2 img   {
+flex: 1;
+border-bottom: 1.5rem solid #a5cc52;
+border-radius:5%;
+}
+
+#item3 img   {
+border-bottom: 1.5rem solid #a5cc52;
+border-radius:5%;
+
+}
+
+
+#item1,#item2,#item3 h3 {
+text-align: center;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 2rem;
+color:black;
+padding:5px;
+
+}
+
+
+.last {
+
+	background-color: white;
+	height: 420px;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+
+}
+ 
+.para {
+flex: 1;
+
+}
+
+
+.parapic {
+flex: 1;
+}
+
+.para p {
+
+	font-size: 22px;
+	font-style: italic;
+}
+
+
+.parapic img {
+	border-radius: 50%;
+}
+
+
+.btn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b8e356), color-stop(1, #a5cc52));
+	background:-moz-linear-gradient(top, #b8e356 5%, #a5cc52 100%);
+	background:-webkit-linear-gradient(top, #b8e356 5%, #a5cc52 100%);
+	background:-o-linear-gradient(top, #b8e356 5%, #a5cc52 100%);
+	background:-ms-linear-gradient(top, #b8e356 5%, #a5cc52 100%);
+	background:linear-gradient(to bottom, #b8e356 5%, #a5cc52 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8e356', endColorstr='#a5cc52',GradientType=0);
+	background-color:yellow;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	border:3px solid #83c41a;
+	display:inline-block;
+	cursor: pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:23px;
+	padding:13px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #86ae47;
+}
+.btn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a5cc52), color-stop(1, #b8e356));
+	background:-moz-linear-gradient(top, #a5cc52 5%, #b8e356 100%);
+	background:-webkit-linear-gradient(top, #a5cc52 5%, #b8e356 100%);
+	background:-o-linear-gradient(top, #a5cc52 5%, #b8e356 100%);
+	background:-ms-linear-gradient(top, #a5cc52 5%, #b8e356 100%);
+	background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5cc52', endColorstr='#b8e356',GradientType=0);
+	background-color:#46bae2;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.servcon {
+display: flex;
+width: 100%;
+background-image: url('resources/plan.jpeg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+justify-content: center;
+align-items: center;
+}
+
+
+.service {
+ 
+width: 80%;
+
+
+}
+
+ul li {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  line-height: 3rem;
+ 
+}
+
+
+
+
+.contbox {
+width:80%;
+background-color:black;
+color:white;
+height: 6rem;
+margin: auto;
+}
+
+.contboxmid {
+width:80%;
+background-color:black;
+color:white;
+height: 4rem;
+margin: auto;
+margin-top: -10rem;
+
+
+}
+
+
+
+.contact {
+
+	display: flex;
+	justify-content: space-around; 
+}
+
+.fa fa-mobile {
+	border: 2px solid black;
+}
+
+.lic {
+
+	color: white;
+}
+
+.safe {
+	width:25rem;
+	border-radius: 20%;
+	
+}
+
+a {
+
+text-decoration: none;
+}
